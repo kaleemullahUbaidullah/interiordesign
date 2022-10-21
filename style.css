@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  position: fixed;
+  display: flex;
+  background-color: #f44336;
+  width: 20%;
+  height: 100%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding-left: 40px;
+  padding-top: 90px;
+  cursor: pointer;
+}
+ul li {
+  display: block;
+  width: 250px;
+  list-style: none;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+ul li:hover {
+  background-color: white;
+  color: black;
+}
+h2 {
+  position: relative;
+  padding-bottom: 62px;
+  font-size: 40px;
+}
+h1 {
+  display: inline;
+}
+.container {
+  display: inline-block;
+  float: right;
+  /* background-color: aqua; */
+  width: 77.2%;
+  height: 100%;
+}
+.title {
+  display: block;
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  padding: 50px 10px 0px 10px;
+  margin: 10px;
+  color: black;
+  font-size: xx-large;
+  font-family: poppins, sans-serif;
+}
+.mainhead {
+  display: block;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+
+  margin: 10px;
+}
+.mainhead h2 {
+  color: #f44336;
+  font-size: 50px;
+  font-family: poppins, sans-serif;
+  padding: 10px 10px 10px 20px;
+}
+.gallery {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  height: 100vh;
+  width: 100%;
+}
+.gallery img {
+  width: 430px;
+  height: 360px;
+  padding: 20px;
+}
+.mainhead p {
+  font-family: poppins, sans-serif;
+  padding: 10px 10px 100px 20px;
+}
+#designers {
+  padding: 10px 10px 0px 20px;
+}
+#cardhead {
+  font-weight: bolder;
+  padding: 0px 20px;
+}
+.cards {
+  box-sizing: content-box;
+  display: flex;
+  margin: 0px 10px;
+  height: 450px;
+  width: 340px;
+}
+.cards img {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+}
+#cardname {
+  font-size: larger;
+  font-weight: bold;
+  padding: 0px 10px 0px 20px;
+}
+#desc {
+  font-size: large;
+  padding: 20px 10px 20px 20px;
+}
+#cardrole {
+  color: rgb(109, 109, 106);
+  font-size: larger;
+  padding: 0px 10px 0px 20px;
+}
+.card1,
+.card2,
+.card3 {
+  background-color: rgb(226, 224, 224);
+  margin: 10px;
+}
